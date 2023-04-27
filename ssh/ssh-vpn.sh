@@ -14,16 +14,16 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/ssh"
+akbarvpn="raw.githubusercontent.com/Haris131/autoscriptvps/main/ssh"
 
 # Link Hosting Kalian Untuk Xray
-akbarvpnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/xray"
+akbarvpnn="raw.githubusercontent.com/Haris131/autoscriptvps/main/xray"
 
 # Link Hosting Kalian Untuk Trojan Go
-akbarvpnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/trojango"
+akbarvpnnn="raw.githubusercontent.com/Haris131/autoscriptvps/main/trojango"
 
 # Link Hosting Kalian Untuk Stunnel5
-akbarvpnnnn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/stunnel5"
+akbarvpnnnn="raw.githubusercontent.com/Haris131/autoscriptvps/main/stunnel5"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -374,7 +374,7 @@ cd /usr/bin
 wget -O addhost "https://${akbarvpn}/addhost.sh"
 wget -O slhost "https://${akbarvpn}/slhost.sh"
 wget -O about "https://${akbarvpn}/about.sh"
-wget -O menu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/menu.sh"
 wget -O addssh "https://${akbarvpn}/addssh.sh"
 wget -O trialssh "https://${akbarvpn}/trialssh.sh"
 wget -O delssh "https://${akbarvpn}/delssh.sh"
@@ -421,28 +421,27 @@ wget -O addtrgo "https://${akbarvpnnn}/addtrgo.sh"
 wget -O deltrgo "https://${akbarvpnnn}/deltrgo.sh"
 wget -O renewtrgo "https://${akbarvpnnn}/renewtrgo.sh"
 wget -O cektrgo "https://${akbarvpnnn}/cektrgo.sh"
-wget -O portsshnontls "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/websocket/portsshnontls.sh"
-wget -O portsshws "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/websocket/portsshws.sh"
-
-wget -O ipsaya "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ipsaya.sh"
-wget -O sshovpnmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/sshovpn.sh"
-wget -O l2tpmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/l2tpmenu.sh"
-wget -O pptpmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/pptpmenu.sh"
-wget -O sstpmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/sstpmenu.sh"
-wget -O wgmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/wgmenu.sh"
-wget -O ssmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ssmenu.sh"
-wget -O ssrmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ssrmenu.sh"
-wget -O vmessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vmessmenu.sh"
-wget -O vlessmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/vlessmenu.sh"
-wget -O grpcmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/grpcmenu.sh"
-wget -O grpcupdate "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/grpcupdate.sh"
-wget -O trmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trmenu.sh"
-wget -O trgomenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/trgomenu.sh"
-wget -O setmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/setmenu.sh"
-wget -O slowdnsmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/slowdnsmenu.sh"
-wget -O running "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/running.sh"
-wget -O updatemenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/updatemenu.sh"
-wget -O sl-fix "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/sslh-fix/sl-fix"
+wget -O portsshnontls "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/websocket/portsshnontls.sh"
+wget -O portsshws "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/websocket/portsshws.sh"
+wget -O ipsaya "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/ipsaya.sh"
+wget -O sshovpnmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/sshovpn.sh"
+wget -O l2tpmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/l2tpmenu.sh"
+wget -O pptpmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/pptpmenu.sh"
+wget -O sstpmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/sstpmenu.sh"
+wget -O wgmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/wgmenu.sh"
+wget -O ssmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/ssmenu.sh"
+wget -O ssrmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/ssrmenu.sh"
+wget -O vmessmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/vmessmenu.sh"
+wget -O vlessmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/vlessmenu.sh"
+wget -O grpcmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/grpcmenu.sh"
+wget -O grpcupdate "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/grpcupdate.sh"
+wget -O trmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/trmenu.sh"
+wget -O trgomenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/trgomenu.sh"
+wget -O setmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/setmenu.sh"
+wget -O slowdnsmenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/slowdnsmenu.sh"
+wget -O running "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/running.sh"
+wget -O updatemenu "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/update/updatemenu.sh"
+wget -O sl-fix "https://raw.githubusercontent.com/Haris131/autoscriptvps/main/sslh-fix/sl-fix"
 
 chmod +x sl-fix
 chmod +x ipsaya
@@ -463,11 +462,8 @@ chmod +x setmenu
 chmod +x slowdnsmenu
 chmod +x running
 chmod +x updatemenu
-
-
 chmod +x portsshnontls
 chmod +x portsshws
-
 chmod +x slhost
 chmod +x addhost
 chmod +x menu
@@ -518,14 +514,10 @@ chmod +x addtrgo
 chmod +x deltrgo
 chmod +x renewtrgo
 chmod +x cektrgo
-echo "0 5 * * * root clearlog && reboot" >> /etc/crontab
+echo "0 0 * * * root clearlog && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 echo "0 1 * * * root delexp" >> /etc/crontab
 echo "10 4 * * * root clearlog && sslh-fix-reboot" >> /etc/crontab
-echo "0 0 * * * root clearlog && reboot" >> /etc/crontab
-echo "0 12 * * * root clearlog && reboot" >> /etc/crontab
-echo "0 18 * * * root clearlog && reboot" >> /etc/crontab
-
 
 # remove unnecessary files
 cd

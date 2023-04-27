@@ -1,19 +1,16 @@
 #!/bin/bash
-# Mod By SL
-#echo "$crot    ALL=(ALL:ALL) ALL" >> /etc/sudoers;
-wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/sshd_config;
-systemctl restart sshd;
-clear;
-echo -e "Masukkan Password:";
-read -e pwe;
-usermod -p `perl -e "print crypt("$pwe","Q4")"` root;
-clear;
-printf "Mohon Simpan Informasi Akun VPS Ini
-============================================
-Akun Root (Akun Utama)
-Ip address = $(curl -Ls http://ipinfo.io/ip)
-Username   = root
-Password   = $pwe
-============================================
-echo "";
-exit;
+#login to your vps without private key..
+
+wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/Haris131/autoscriptvps/main/sshd_config
+systemctl restart sshd
+clear
+
+sed -i 's@#PermitRootLogin[[:space:]]prohibit-password@PermitRootLogin yes@g' /etc/ssh/sshd_config
+
+sed -i 's@#PubkeyAuthentication[[:space:]]yes@PubkeyAuthentication no@g' /etc/ssh/sshd_config
+
+sed -i 's@PasswordAuthentication[[:space:]]no@PasswordAuthentication yes@g' /etc/ssh/sshd_config
+
+service ssh restart
+passwd root
+rm vpsroot.sh
